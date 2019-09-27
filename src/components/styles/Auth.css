@@ -1,0 +1,83 @@
+.auth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.authHead {
+  margin: 1%;
+}
+
+.authContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.authForm {
+  font-size: 20pt;
+  border: 3px solid rgb(175, 162, 192);
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: rgb(175, 162, 192);
+  padding: 7%;
+  max-width: 338px;
+  min-width: auto;
+  margin-top: 30px;
+  margin-right: 0;
+}
+
+.authFormDiv {
+  justify-content: center;
+  margin: auto;
+}
+
+.authButtonDiv {
+  border: 3px solid rgb(175, 162, 192);
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background-color: rgb(175, 162, 192);
+  padding: 1%;
+  max-width: auto;
+  display: grid;
+}
+
+.authInput {
+  font-size: 16pt;
+  margin: 10px;
+  border: px solid black;
+  height: 40px;
+  width: auto;
+}
+
+.buttonA {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 1%;
+  border: 4px solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 14pt;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
+.buttonA:hover {
+  background-color: lightpink;
+}
+
+@media screen and (max-width: 768px){
+  .authHead h1{
+    text-align: center;
+    font-size: 24px;
+  }
+}

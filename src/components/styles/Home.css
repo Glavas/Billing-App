@@ -1,0 +1,28 @@
+.HomeContainer {
+  display: grid;
+  max-width: 50%;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 2rem;
+  align-items: center;
+  margin: auto;
+}
+
+.sumObj {
+  font-size:16pt;
+  background-color: lightgoldenrodyellow;
+  border: 0.7px solid black;
+  margin: 5%;
+  padding: 4%;
+  box-shadow: 20px 15px 20px grey;
+  border-radius: 45px;  
+}
+
+.sumObj:hover{
+    background-color: rgb(241, 241, 176);
+    box-shadow: 0 0 0; 
+    transition: 0.3s;
+}
+
+.sumObj:active{
+    border: 2.5px solid black;
+}

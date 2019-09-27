@@ -1,0 +1,11 @@
+.forms {
+    background-image: url(../../assets/images/purpleDust2.jpg);
+    margin: auto;
+    margin-top: 3%;
+    padding: 2%;
+    box-shadow: 2px 2px 20px black;
+    font-size: 16pt;
+}
+.actualForm{
+    opacity:1;
+}

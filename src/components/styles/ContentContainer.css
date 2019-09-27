@@ -1,0 +1,45 @@
+.content-container {
+  background-image: url(../../assets/images/background-contentContainer.jpg);
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.nav-container {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  text-shadow: 12px;
+}
+
+.ImpressumContent {
+  box-sizing: inherit;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 2rem;
+  position: relative;
+}
+
+.contactForm {
+  margin-bottom: 10%;
+  border-radius: 50px;
+}
+.contactForm:hover{
+  border: 1px solid black;
+ 
+  transition: 0.5s;
+}
+
+.messageInput {
+  overflow-y: scroll;
+  height: 250px;
+}
+
+@media screen and (max-width: 768px){
+  .nav-container h1{
+    text-align: center;
+    font-size: 24px;
+  }
+}

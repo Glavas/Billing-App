@@ -1,0 +1,180 @@
+.navigationBar {
+  position: fixed;
+  width: 100%;
+  background-color: #242424;
+  height: auto;
+  flex: 0.1;
+  z-index: 1;
+}
+.butMenu{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  background-color: transparent;
+  font-weight: lighter;
+  color: white;
+  border-color: transparent;
+  padding: 11px 23px;
+  text-decoration: none;
+}
+
+.butMenu:hover{
+  opacity: 0.7;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.toolbarNavigationItems {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 1px;
+  padding: 1%;
+}
+
+.toolbarLogo a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.brandIcon {
+  min-width: 30px;
+  max-width: 40px;
+  height: auto;
+  vertical-align: top;
+}
+
+.brandTitle {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 400;
+  text-color: white;
+  color: white;
+  vertical-align: top;
+}
+.toolbarNavigationItems ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5px;
+  display: flex;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.input1 {
+  -webkit-appearance: none;
+  width: auto;
+  border-radius: 20px;
+  border: 1px solid black;;
+  font-size: 100%;
+  font-family: inherit;
+  padding: 1px;
+  padding-left: 5px;
+}
+
+.search-label {
+  color: white;
+  padding-right: 10px;
+}
+
+.searchbar {
+  display: flex;
+  width: auto;
+  padding-left: 20px;
+  border: none;
+  
+}
+
+.button1 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.2em 0.2em 0;
+  border: 0.16em solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+  z-index: 1;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 1%;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.button2:hover {
+  background-color: lightpink;
+}
+
+.icon-toggler {
+  display: none;
+}
+#navigation label {
+  display: none;
+}
+
+#hamburger-icon{
+  display: none;
+}
+  
+@media screen and (max-width: 768px){
+  #navigation label {
+    display: inline-block;
+    color: #fff;
+    background: transparent;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #navigation ul {
+    display: none;
+  }
+
+  #navigation ul li {
+    display: block;
+  }
+  #navigation ul li {
+    border-top: 1px solid transparent;
+  }
+
+  #navigation input:checked ~ ul {
+    display: block;
+  }
+
+  #navigation{
+    width: 10%;
+  }
+}

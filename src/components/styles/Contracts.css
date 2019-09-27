@@ -1,0 +1,46 @@
+p {
+  padding: 2%;
+}
+
+.contractBox {
+  justify-content: center;
+  margin: 5%;
+  padding: auto;
+  height: 100%;
+  border-color: black;
+  width: 100%;
+  max-width: 400px;
+  max-height: 600px;
+  background-color: lightgrey;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 50px;
+}
+
+.contractBox:hover {
+  border-style: solid;
+  color: white;
+  border-color: black;
+
+  background-color: rgb(66, 66, 97);
+  box-shadow: 20px 15px 20px black;
+  transition: 0.15s;
+}
+
+.contractBox:active {
+  border-style: solid;
+  border-color: rgb(114, 116, 119);
+}
+
+.contractContainer {
+  box-sizing: inherit;
+  display: grid;
+  width: auto;
+  align-content: center;
+  margin-bottom: 300px;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 2rem;
+  align-items: center;
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
+}

@@ -1,0 +1,50 @@
+.BuildControl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.BuildControl {
+  display: flex;
+  font: inherit;
+  padding: 5px;
+  margin: 10px 5px 10px 10px;
+  width: 80px;
+  border: 1px solid black;
+  cursor: pointer;
+  outline: none;
+}
+
+.ContractControl {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.button4 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 1%;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+  text-align: center;
+  transition: all 0.2s;
+}
+.button4:hover {
+  background-color: lightpink;
+}
+
+.button4:active {
+  border: 2px solid black;
+}
+
+.labelCat {
+  margin-left: 10px;
+}

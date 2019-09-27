@@ -1,0 +1,46 @@
+.butMenu{
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 15px;
+  background-color: transparent;
+  font-weight: lighter;
+  color: white;
+  border-color: transparent;
+  padding: 11px 23px;
+  text-decoration: none;
+}
+
+.butMenu:hover{
+  opacity: 0.7;
+}
+@media screen and (max-width: 768px){
+  #navigation label {
+    display: inline-block;
+    color: #fff;
+    background: transparent;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #navigation ul {
+    display: none;
+  }
+
+  #navigation ul li {
+    display: block;
+  }
+  #navigation ul li {
+    border-top: 1px solid transparent;
+  }
+
+  #navigation input:checked ~ ul {
+    display: block;
+  }
+
+  #navigation{
+    width: 10%;
+  }
+}
+

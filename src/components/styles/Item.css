@@ -1,0 +1,46 @@
+.itemContainer {
+  text-align: left;
+  align-content: flex-start;
+  border-color: 2px black;
+  width: 90%;
+  min-width: 300px; 
+  margin: 20px;
+}
+
+.itemContainer + h3:hover {
+  color: red;
+}
+
+h3 {
+  border-bottom: 2px solid;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+
+.itemContainer:hover {
+  border-color: coral;
+  box-shadow: 5px coral;
+}
+.ptext {
+  
+  font-size:20px;
+}
+
+.propsChildren {
+  font-size: 20px;
+}
+
+.ImpressumContent {
+  display: flex;
+  flex-direction: row;
+  min-width: auto;
+  padding: 45px;
+  background-color: lightgrey;
+}
+
+@media screen and (max-width: 768px){
+  .responsiveFrame{
+    width: 250px;
+    height: 300px;
+  }
+}
